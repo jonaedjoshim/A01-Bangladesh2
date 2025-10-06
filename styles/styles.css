@@ -8,6 +8,11 @@
     margin-right: 160px;
 }
 
+body a {
+    text-decoration: none;
+    color: white;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -25,11 +30,15 @@ h3 {
     border: 1px solid #006A50;
     border-radius: 6px;
     background-color: white;
-    color: #006A50;
+    
     font-size: 18px;
     font-weight: 600;
     margin-top: 24px;
     margin-bottom: 24px;
+}
+
+.sign-in a {
+    color:#006A50; 
 }
 
 .hero {
@@ -154,6 +163,7 @@ section div h3 {
     padding: 32px;
     border: 1px solid rgb(159, 165, 167);
     border-radius: 16px;
+    border-style: none;
 }
 
 .box1 {
@@ -166,4 +176,25 @@ section div h3 {
 
 .box3 {
     background-color: rgba(247, 235, 207, 1);
+}
+
+.btn {
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #5490F5;
+}
+
+.btn-grn {
+    background-color: #09A15C;
+}
+
+.btn-ylw {
+    background-color: #FFC239;
 }
