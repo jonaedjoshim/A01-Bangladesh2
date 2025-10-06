@@ -1,0 +1,169 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.sign-in {
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 6px;
+    background-color: white;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+}
+
+section div p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+
+section div h3 {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.button2 {
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    padding: 17px 34px;
+}
+
+.details {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    max-width: 625px;
+}
+
+.flag {
+    width: 475px;
+    height: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 65px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.card {
+    padding: 25px;
+    border: 1px solid rgb(159, 165, 167);
+    border-radius: 16px;
+}
+
+.card img {
+    width: 65px;
+    height: 65px;
+    padding-bottom: 25px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #rgba(14, 14, 14, 0.7);
+}
+
+.div-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.headline h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.headline p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #rgba(14, 14, 14, 0.7);
+}
+
+.big-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.card2 img {
+    width: 65px;
+    height: 65px;
+}
+
+.card2 h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #rgba(14, 14, 14, 0.7);
+}
+
+.card2 {
+    padding: 32px;
+    border: 1px solid rgb(159, 165, 167);
+    border-radius: 16px;
+}
+
+.box1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.box2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.box3 {
+    background-color: rgba(247, 235, 207, 1);
+}
