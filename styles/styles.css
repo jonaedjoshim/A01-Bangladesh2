@@ -49,6 +49,7 @@ h3 {
     padding-right: 60px;
     margin-bottom: 60px;
     border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 section div p {
@@ -99,8 +100,8 @@ section div h3 {
 
 .card {
     padding: 25px;
-    border: 1px solid rgb(159, 165, 167);
     border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 .card img {
@@ -162,6 +163,7 @@ section div h3 {
 .card2 {
     padding: 32px;
     border: 1px solid rgb(159, 165, 167);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
     border-style: none;
 }
@@ -231,52 +233,96 @@ section div h3 {
     margin-top: 0;
 }
 
-/* .opinion-section {
-  width: 90%;
-  max-width: 900px;
-} */
-
 .opinion-section h2 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
 
 
 .table-container {
-  background: #fff;
-  padding: 35px;
-  border-radius: 16px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 thead {
-  background-color: rgba(198, 228, 214, 1);
+    background-color: rgba(198, 228, 214, 1);
 }
 
-th, td {
-  text-align: left;
-  padding: 24px 36px;
-  border: 1px solid #ddd;
-  font-size: 16px;
-  font-weight: 600;
+th,
+td {
+    text-align: left;
+    padding: 24px 36px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 th {
-  font-weight: 600;
-  color: rgba(14, 14, 14, 1);
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
 }
 
 select {
-  padding: 12px 16px;
-  border-radius: 5px;
-  border: 1px solid rgba(14, 14, 14, 1);
-  background-color: rgba(198, 228, 214, 1);
-  font-size: 14px;
-  cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: 1px solid rgba(14, 14, 14, 1);
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.newslater {
+    background-color: rgba(198, 228, 214, 1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    align-items: center;
+}
+
+.new-contain {
+    padding:75px 265px;
+    margin: 80px 265px;
+    text-align: center;
+    /* width: 850px; */
+    height: 240px;
+}
+
+.newshead {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.news-para {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.special-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.special-container input {
+    background-color: white;
+    color: rgba(14, 14, 14, 0.3);
+    border-radius: 8px 0 0 8px;
+    border-style: none;
+    padding: 17px 34px;
+    margin-right: 0;
+    width: 600px;
+}
+
+.subscribe {
+    border-radius:0 8px 8px 0;
+    margin-left: 0;
 }
