@@ -30,7 +30,7 @@ h3 {
     border: 1px solid #006A50;
     border-radius: 6px;
     background-color: white;
-    
+
     font-size: 18px;
     font-weight: 600;
     margin-top: 24px;
@@ -38,7 +38,7 @@ h3 {
 }
 
 .sign-in a {
-    color:#006A50; 
+    color: #006A50;
 }
 
 .hero {
@@ -185,6 +185,7 @@ section div h3 {
     font-size: 16px;
     font-weight: 600;
     color: white;
+    margin: 25px auto 25px 0;
 }
 
 .btn-blue {
@@ -197,4 +198,34 @@ section div h3 {
 
 .btn-ylw {
     background-color: #FFC239;
+}
+
+.speech {
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 25px;
+}
+
+.script {
+    font-size:  16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+
+.yunus {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.position {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 0;
 }
