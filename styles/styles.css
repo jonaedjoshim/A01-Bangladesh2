@@ -5,6 +5,7 @@
     font-variation-settings: "wdth" 100;
     margin-left: 160px;
     margin-right: 160px;
+    background-color: whitesmoke;
 }
 
 body a {
@@ -452,4 +453,10 @@ select {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 32px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
