@@ -284,6 +284,7 @@ select {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     border-radius: 24px;
     align-items: center;
+    width: 100%;
 }
 
 .new-contain {
@@ -380,4 +381,19 @@ select {
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer hr {
+    margin:32px;
+}
+
+.footer a {
+    width: 25px;
+    height: 25px;
+    padding: 25px;
+    margin-bottom: 50px;
 }
